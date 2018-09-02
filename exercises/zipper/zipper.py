@@ -1,28 +1,29 @@
-class Zipper(object):
-    @staticmethod
-    def from_tree(tree):
+class Zipper:
+    def __init__(self, focus=None, context=None):
         pass
 
+    @property
     def value(self):
         pass
 
-    def set_value(self):
+    def set_value(self, value):
         pass
 
+    @property
     def left(self):
         pass
 
-    def set_left(self):
-        pass
-
+    @property
     def right(self):
         pass
 
-    def set_right(self):
-        pass
-
+    @property
     def up(self):
         pass
 
-    def to_tree(self):
+    @property
+    def root(self):
+        pass
+
+    def insert(self, obj):
         pass
